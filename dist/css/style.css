@@ -1,0 +1,113 @@
+html {
+  display: block;
+  height: 100%;
+}
+
+body {
+  background-image: url("../images/cover.jpg");
+  background-position-x: right;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+a {
+  color: inherit;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.logo-img {
+  width: 100px;
+}
+
+.logo-text {
+  font-family: 'Lobster';
+  color: #171717;
+  font-size: 3rem;
+}
+
+.phrase {
+  color: white;
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  bottom: 15%;
+  text-align: center;
+  font-family: 'Lobster';
+  opacity: 0.6;
+}
+
+.footer {
+  position: absolute;
+  background-color: #171717;
+  width: 50%;
+  left: 25%;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  display: contents;
+}
+
+.link-links {
+  padding: 10px 20px;
+  color: white;
+}
+
+#specialty {
+  display: none;
+  font-family: 'Lobster';
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 15%;
+  left: 25%;
+  color: white;
+  text-align: center;
+}
+
+.spec-div {
+  display: flex;
+}
+
+.spec-img {
+  width: 50%;
+  padding: 20px;
+}
+
+.spec-description {
+  padding: 20px;
+}
+
+.spec-text {
+  padding-top: 25px;
+  font-size: 20px;
+}
+
+#contact {
+  font-family: 'Lobster';
+  background-color: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  top: 15%;
+  left: 25%;
+  color: white;
+  text-align: center;
+  /*display: none;*/
+}
+
+fieldset {
+  margin: 30px 30px;
+  text-align: left;
+}

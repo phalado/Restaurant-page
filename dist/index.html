@@ -1,11 +1,56 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Restaurant Page</title>
+    <title>Little chef's</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="./css/style.css" /> -->
+    <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
+    <header class="logo">
+      <img src="images/logo2.png" class="logo-img">
+      <h2 class="logo-text">Little chef's</h2>
+    </header>
+    <div class="phrase"><h1>If we are what we eat, here you can be the best there is!</h1></div>
+    <footer class="footer">
+      <ul class="links">
+        <li class="link-links"><a href="#">Home</a></li>
+        <li class="link-links"><a href="#" onclick="specModel()">Our specialty</a></li>
+        <li class="link-links"><a href="#">Critics</a></li>
+        <li class="link-links"><a href="#" onclick="contactModel()">Contact</a></li>
+      </ul>
+    </footer>
+
+    <div id="specialty">
+      <h1>Our specialty</h1>
+      <div class="spec-div">
+        <img src="images/prato.jpeg" class="spec-img">
+        <div class="spec-description">
+          <h2>Ratatouille</h2>
+          <p class="spec-text">A classic French recipe of cooked vegetables from the 18th century. Taste like childhood.</p>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <h1>Contact</h1>
+      <form>
+        <fieldset>
+          <label for="name">Your full name:</label>
+          <input type="text" id="name" required>
+        </fieldset>
+        <fieldset>
+          <label for="email">Your email address:</label>
+          <input type="email" id="email" required>
+        </fieldset>
+        <fieldset>
+          <label for="name">Your message:</label>
+          <input type="text" id="message" required>
+        </fieldset>
+        <button id="submit">Send</button>
+      </form>
+    </div>
+
     <div id="content">
 
     </div>
