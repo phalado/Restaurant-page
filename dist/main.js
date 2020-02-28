@@ -93,7 +93,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-eval("console.log(\"If you see this... it is too late!!!\")\n\nfunction specModel() {\n  document.getElementById('specialty').style.display = \"flex\";\n}\n\nfunction contactModel() {\n  document.getElementById('contact').style.display = \"flex\";\n}\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("console.log(\"If you see this... it is too late!!!\");\n\nfunction specModel(display) {\n  document.getElementById('specialty').style.display = display;\n  document.getElementById('contact').style.display = 'none';\n  document.getElementById('critics').style.display = 'none';\n}\n\nfunction contactModel() {\n  document.getElementById('contact').style.display = 'grid';\n  document.getElementById('specialty').style.display = 'none';\n  document.getElementById('critics').style.display = 'none';\n}\n\nfunction criticsModel() {\n  document.getElementById('contact').style.display = 'none';\n  document.getElementById('specialty').style.display = 'none';\n  document.getElementById('critics').style.display = 'grid';\n}\n\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

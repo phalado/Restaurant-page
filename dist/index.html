@@ -14,9 +14,9 @@
     <div class="phrase"><h1>If we are what we eat, here you can be the best there is!</h1></div>
     <footer class="footer">
       <ul class="links">
-        <li class="link-links"><a href="#">Home</a></li>
-        <li class="link-links"><a href="#" onclick="specModel()">Our specialty</a></li>
-        <li class="link-links"><a href="#">Critics</a></li>
+        <li class="link-links"><a href="#" onclick="specModel('none')">Home</a></li>
+        <li class="link-links"><a href="#" onclick="specModel('grid')">Our specialty</a></li>
+        <li class="link-links"><a href="#" onclick="criticsModel('grid')">Critics</a></li>
         <li class="link-links"><a href="#" onclick="contactModel()">Contact</a></li>
       </ul>
     </footer>
@@ -51,9 +51,44 @@
       </form>
     </div>
 
+    <div id="critics">
+      <h1>Critics</h1>
+      <div class="crit-div">
+        <div class="crit-description">
+          <img src="images/critic1.jpg" class="crit-img">
+          <h3>Anton Ego</h3>
+          <p class="spec-text">Internationally renowed critic. Defined little chef as the finest chef in France.</p>
+        </div>
+        <div class="crit-description">
+          <img src="images/critic2.jpg" class="crit-img">
+          <h3>Emile</h3>
+          <p class="spec-text">The chef's brother. Eats his food since a baby <span class="dashed-text">rat</span>... human. Clearly a human.</p>
+        </div>
+      </div>
+    </div>
+
     <div id="content">
 
     </div>
     <script src="main.js"></script>
+    <script>
+      function specModel(display) {
+        document.getElementById('specialty').style.display = display;
+        document.getElementById('contact').style.display = 'none';
+        document.getElementById('critics').style.display = 'none';
+      }
+
+      function contactModel() {
+        document.getElementById('contact').style.display = 'grid';
+        document.getElementById('specialty').style.display = 'none';
+        document.getElementById('critics').style.display = 'none';
+      }
+
+      function criticsModel() {
+        document.getElementById('contact').style.display = 'none';
+        document.getElementById('specialty').style.display = 'none';
+        document.getElementById('critics').style.display = 'grid';
+      }
+    </script>
   </body>
 </html>
