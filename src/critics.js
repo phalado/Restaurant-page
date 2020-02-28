@@ -15,8 +15,8 @@ function critics() {
       </div>
     </div>
   `;
-  critLines.setAttribute("id", "critics");
+  critLines.setAttribute('id', 'critics');
   return critLines;
-};
+}
 
 export default critics;

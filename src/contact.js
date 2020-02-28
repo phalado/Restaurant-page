@@ -18,8 +18,8 @@ function contact() {
       <button id="submit">Send</button>
     </form>
   `;
-  contactLines.setAttribute("id", "contact");
+  contactLines.setAttribute('id', 'contact');
   return contactLines;
-};
+}
 
 export default contact;

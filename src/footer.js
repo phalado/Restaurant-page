@@ -8,8 +8,8 @@ function footer() {
       <li class="link-links"><a href="#" id="cont">Contact</a></li>
     </ul>
   `;
-  footerLines.className = "footer";
+  footerLines.className = 'footer';
   return footerLines;
-};
+}
 
 export default footer;

@@ -12,7 +12,7 @@ function specialty() {
       </div>
     </div>
   `;
-  specLines.setAttribute("id", "specialty");
+  specLines.setAttribute('id', 'specialty');
   return specLines;
 }
 

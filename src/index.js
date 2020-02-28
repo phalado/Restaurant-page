@@ -43,6 +43,6 @@ const page = () => {
   content.querySelector('#spec').addEventListener('click', specModel);
   content.querySelector('#cont').addEventListener('click', contactModel);
   content.querySelector('#crit').addEventListener('click', criticsModel);
-}
+};
 
 page();
