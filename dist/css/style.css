@@ -144,6 +144,6 @@ fieldset {
   font-size: 20px;
 }
 
-.dashed-text {
-  text-decoration: line-through;
+.form {
+  justify-self: center;
 }

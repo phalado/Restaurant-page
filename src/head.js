@@ -1,13 +1,12 @@
-<!DOCTYPE html>
-<html>
-  <head>
+function head() {
+  const head = document.createElement('head');
+  head.innerHTML = `
     <title>Little chef's</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Lobster&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css" />
-  </head>
-  <body>
-    <div id="content"></div>
-    <script src="main.js"></script>
-  </body>
-</html>
+  `;
+  return head;
+}
+
+export default head;
