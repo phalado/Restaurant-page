@@ -55,6 +55,6 @@ Raphael Cordeiro - [GitHub][rapha-github] - [Twitter][rapha-twitter]
 
 <!-- Links -->
 [assignment]: https://www.theodinproject.com/courses/javascript/lessons/restaurant-page
-[raw-version]: https://raw.githack.com/phalado/Restaurant-page/features/dist/index.html
+[raw-version]: https://raw.githack.com/phalado/Restaurant-page/develop/dist/index.html
 [rapha-github]: https://github.com/phalado
 [rapha-twitter]: https://twitter.com/phalado
